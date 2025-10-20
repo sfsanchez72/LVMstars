@@ -13,6 +13,7 @@ from .gaia import GaiaCrossmatcher, GaiaMatch
 from .subtraction import SkySubtractor
 from .dust import DustCorrector
 from .parameters import StellarParameters
+from .config import Config
 
 __all__ = [
     "StellarSpectrum",
@@ -21,4 +22,5 @@ __all__ = [
     "SkySubtractor",
     "DustCorrector",
     "StellarParameters",
+    "Config",
 ]
