@@ -42,6 +42,9 @@ dev = [
 Homepage = "https://github.com/sfsanchez72/LVMstars"
 Repository = "https://github.com/sfsanchez72/LVMstars"
 
+[project.scripts]
+lvmstars = "lvmstars.cli:main"
+
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["lvmstars*"]
